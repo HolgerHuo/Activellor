@@ -16,6 +16,7 @@ This theme, like WordPress, is licensed under the GPL.
 
 Sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
 
+Modified by Holger Huop Under GPL-v3 at May. 3 2020
 */
 
 
@@ -47,7 +48,7 @@ body {
     color: #696969;
     background-color: #FFFFFF;
     word-wrap: break-word;
-    font-family: 'Lora', serif;
+    font-family: Josefin Sans, -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
     line-height: 2;
     font-size: 14px;
 }
@@ -83,7 +84,7 @@ a:focus {
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     color: #696969;
     font-weight: 400;
-    font-family: 'Montserrat', sans-serif;
+    font-family: Permanent Marker, "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif, Helvetica Neue, Helvetica, Arial, sans-serif, PingFang SC, Hiragino Sans GB;
     margin: 30px 0;
 }
 .container {
@@ -117,12 +118,17 @@ p {
     margin-bottom: 0;
 }
 blockquote {
-    position: relative;
-    border: 0;
-    padding: 0 0 0 50px;
-    font-style: italic;
-    line-height: 1.6;
+    margin-bottom: 15px;
+    margin-left: 1em;
+    padding: 3px 0 3px 10px;
+    border-left: 6px solid #46bba9;
+    background-color: #f6f6f6;
+    color: #000;
+    font-weight: 300;
+    font-size: 1.25em;
+    line-height: 2.5em;
 }
+/*
 blockquote:before {
     content: "\201D";
     color: #a161bf;
@@ -132,6 +138,7 @@ blockquote:before {
     top: 0;
     line-height: 1;
 }
+*/
 blockquote p {
     margin: 0;
 }
@@ -404,7 +411,7 @@ article.post:first-child .post-inner-content {
     text-align: center;
 }
 .entry-title {
-    font-family: "Lora", serif;
+    font-family: Permanent Marker, "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif, Helvetica Neue, Helvetica, Arial, sans-serif, PingFang SC, Hiragino Sans GB;
     font-size: 24px;
     font-style: italic;
     margin-top: 0;
