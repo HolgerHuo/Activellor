@@ -65,7 +65,7 @@ if ( $index > 2 && is_home() && 'default' == $blog_layout ) {
 				<p><a class="btn btn-default read-more" href="<?php the_permalink(); ?>"><?php esc_html_e( 'Read More', 'activello' ); ?></a></p>
 			</div><!-- .entry-summary -->
 			<?php else : ?>
-			<div class="entry-content">
+			<div class="entry-content"  id="article_summary">
 
 				<?php
 				if ( get_theme_mod( 'activello_excerpts', 1 ) && '' != get_the_excerpt() ) :

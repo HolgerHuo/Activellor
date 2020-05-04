@@ -498,6 +498,13 @@ article.post {
     width: 100%;
     margin: 0;
     padding-right: 10px;
+    background: #fefefe;
+    border-radius: 20px;
+    -webkit-transition: all 0.7s ease-in-out;
+    -moz-transition: all 0.7s ease-in-out;
+    -ms-transition: all 0.7s ease-in-out;
+    -o-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 article.grid {
     padding: 0;
@@ -1945,4 +1952,12 @@ p.logged-in-as {
     content: "";
     display: block;
     clear: both;
+}
+
+div#page {
+    background: rgba(255,255,255,0.5);
+}
+
+div#article_summary {
+    text-align: center;
 }
