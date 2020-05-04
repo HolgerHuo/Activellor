@@ -804,6 +804,8 @@ ul.children, ul.children li {
     background-position: center center;
     background-repeat: no-repeat;
     overflow: hidden;
+    border-radius: 80px;
+    box-shadow: 0px 7px 5px #888888;
 }
 .recent-posts-wrapper .post .post-image img:hover,
 .recent-posts-wrapper .post .post-image img:focus-within {
@@ -816,7 +818,8 @@ ul.children, ul.children li {
     display: block;
 }
 #secondary .widget .post-content a {
-    font-style: italic;
+    /* font-style: italic; */
+    font-family: Permanent Marker, "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif, Helvetica Neue, Helvetica, Arial, sans-serif, PingFang SC, Hiragino Sans GB;
     font-size: 16px;
 }
 #secondary .widget .post-content a:hover {}
@@ -979,9 +982,10 @@ a.custom-logo-link {
 }
 .site-name .navbar-brand {
     color: #1c202a;
+    font-family: Permanent Marker, "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif, Helvetica Neue, Helvetica, Arial, sans-serif, PingFang SC, Hiragino Sans GB;
 }
 .tagline {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif, "Kaiti SC", STKaiti, "AR PL UKai CN", "AR PL UKai HK", "AR PL UKai TW", "AR PL UKai TW MBE", "AR PL KaitiM GB", KaiTi, KaiTi_GB2312, DFKai-SB, "TW\-Kai", serif, Helvetica Neue, Helvetica, Arial, sans-serif, PingFang SC, Hiragino Sans GB;;
     margin-top: 10px;
     letter-spacing: 1px;
 }
