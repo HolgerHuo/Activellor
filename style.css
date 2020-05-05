@@ -288,6 +288,8 @@ article.sticky.post {
 .main-content-area {
     margin-top: 40px;
     margin-bottom: 40px;
+	background: rgba(255,255,255,0.9);
+    border-radius: 5px;
 }
 
 /* =Post styling
@@ -499,8 +501,6 @@ article.post {
     width: 100%;
     margin: 0;
     padding-right: 10px;
-    background: #fefefe;
-    border-radius: 20px;
     -webkit-transition: all 0.7s ease-in-out;
     -moz-transition: all 0.7s ease-in-out;
     -ms-transition: all 0.7s ease-in-out;
@@ -1463,7 +1463,6 @@ p.logged-in-as {
     list-style: none;
 }
 .comment .comment-body {
-    background-color: #ffffff;
     margin: 0;
     overflow: hidden;
     margin-top: 2em;
@@ -1961,6 +1960,19 @@ div#page {
 
 div#article_summary {
     text-align: center;
+}
+
+form#commentform {
+    margin-bottom: 50px;
+}
+
+
+.blog-item-wrap {
+    margin-top: 40px;
+}
+
+div#secondary {
+    margin-top: 44px;
 }
 
 /* toc contents */
