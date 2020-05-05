@@ -51,6 +51,11 @@ body {
     font-family: Josefin Sans, -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
     line-height: 2;
     font-size: 14px;
+	background-image: url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN)!important;
+	background-position: left top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 a {
     color: #393939;
@@ -288,8 +293,6 @@ article.sticky.post {
 .main-content-area {
     margin-top: 40px;
     margin-bottom: 40px;
-	background: rgba(255,255,255,0.9);
-    border-radius: 5px;
 }
 
 /* =Post styling
@@ -1963,7 +1966,7 @@ div#article_summary {
 }
 
 form#commentform {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 
@@ -1971,8 +1974,20 @@ form#commentform {
     margin-top: 40px;
 }
 
+div#comments {
+    margin-top: 60px;
+}
+
 div#secondary {
-    margin-top: 44px;
+    padding-top: 55px;
+	background: rgba(255,255,255,.5);
+}
+
+.main-content-inner {
+    background: rgba(255,255,255,.9);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 1px;
 }
 
 /* toc contents */
@@ -2008,7 +2023,8 @@ div#secondary {
     }
 }
 .toc {
-    overflow-y: auto
+    overflow-y: auto;
+	background: rgba(255,255,255,.5);
 }
 
 .toc>.toc-list {

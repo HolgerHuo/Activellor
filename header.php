@@ -117,7 +117,7 @@
 			<div class="row">
 				<div class="main-content-inner <?php echo activello_main_content_bootstrap_classes(); ?> <?php echo $layout_class; ?>">
 					<?php if ( is_single() ) : ?>
-						<div style="margin-top: 40px!important;border-bottom: 0;
+						<div style="margin-top: 10px!important;border-bottom: 0;
 			margin: 0;text-align: left;margin-bottom: 15px;padding: 3px 0 3px 10px;border-left: 4px solid #46bba9;color: #000;font-weight: 300;line-height: 2.5em;" class="cat-title">
 							<?php if ( function_exists('yoast_breadcrumb') ) {
 							yoast_breadcrumb('<p id="breadcrumbs">','</p>');
