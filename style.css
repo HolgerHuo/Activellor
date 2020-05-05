@@ -51,11 +51,6 @@ body {
     font-family: Josefin Sans, -apple-system, "Noto Sans", "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans SC", "Source Han Sans CN", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif, Helvetica Neue For Number, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, PingFang SC, Hiragino Sans GB, "Microsoft YaHei", Helvetica Neue, Helvetica, Arial, sans-serif;
     line-height: 2;
     font-size: 14px;
-	background-image: url(https://bing.biturl.top/?resolution=1920&format=image&index=0&mkt=zh-CN)!important;
-	background-position: left top;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 a {
     color: #393939;
@@ -1980,7 +1975,6 @@ div#comments {
 
 div#secondary {
     padding-top: 55px;
-	background: rgba(255,255,255,.5);
 }
 
 .main-content-inner {
@@ -1993,7 +1987,7 @@ div#secondary {
 /* toc contents */
 .toc-wrap {
     position: absolute !important;
-    width: 200px;
+    width: 236px;
     height: 100% !important;
     z-index: 98;
     right: calc((100% - 950px - 250px) / 2);
@@ -2024,7 +2018,6 @@ div#secondary {
 }
 .toc {
     overflow-y: auto;
-	background: rgba(255,255,255,.5);
 }
 
 .toc>.toc-list {
