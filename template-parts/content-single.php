@@ -8,6 +8,14 @@
 	<div class="blog-item-wrap">
 		<div class="post-inner-content">
 			<header class="entry-header page-header">
+				<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
+					<?php
+						$thumbnail_args = array(
+							'class' => 'single-featured',
+						);
+						the_post_thumbnail( 'activello-featured', $thumbnail_args );
+					?>
+				</a>
 				<h1 class="entry-title"><?php the_title(); ?></h1>
 
 				<?php if ( 'post' == get_post_type() ) : ?>
@@ -29,15 +37,6 @@
 				</div><!-- .entry-meta -->
 				<?php endif; ?>
 			</header><!-- .entry-header -->
-			
-			<a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>" >
-				<?php
-					$thumbnail_args = array(
-						'class' => 'single-featured',
-					);
-					the_post_thumbnail( 'activello-featured', $thumbnail_args );
-				?>
-			</a>
 			
 			<div class="entry-content">
 
