@@ -74,6 +74,7 @@
 		}?>
 
 		<div class="container">
+			<?php if ( is_home() || is_front_page() ) : ?>
 			<div id="logo">
 				<?php echo is_home() ?  '<h1 class="site-name">' : '<span class="site-name">'; ?>
 
@@ -91,9 +92,6 @@
 					<div class="tagline"><?php bloginfo( 'description' ); ?></div>
 				<?php endif; ?>
 			</div><!-- end of #logo -->
-
-			<?php if ( ! is_front_page() || ! is_home() ) : ?>
-			<div id="line"></div>
 			<?php endif; ?>
 		</div>
 
@@ -108,11 +106,6 @@
 
 		<div class="container main-content-area">
 
-			<?php if ( is_single() && has_category() ) : ?>
-			<div class="cat-title">
-				<?php echo get_the_category_list(); ?>
-			</div>
-			<?php endif; ?>
 						<?php
 							global $post;
 						if ( is_singular() && get_post_meta( $post->ID, 'site_layout', true ) ) {
@@ -123,3 +116,11 @@
 
 			<div class="row">
 				<div class="main-content-inner <?php echo activello_main_content_bootstrap_classes(); ?> <?php echo $layout_class; ?>">
+					<?php if ( is_single() ) : ?>
+						<div style="margin-top: 40px!important;border-bottom: 0;
+			margin: 0;text-align: left;margin-bottom: 15px;padding: 3px 0 3px 10px;border-left: 4px solid #46bba9;color: #000;font-weight: 300;line-height: 2.5em;" class="cat-title">
+							<?php if ( function_exists('yoast_breadcrumb') ) {
+							yoast_breadcrumb('<p id="breadcrumbs">','</p>');
+							} ?>
+						</div>
+					<?php endif; ?>

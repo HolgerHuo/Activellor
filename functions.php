@@ -316,7 +316,8 @@ if ( ! function_exists( 'activello_woo_setup' ) ) :
 		  add_theme_support( 'wc-product-gallery-zoom' );
 		  add_theme_support( 'wc-product-gallery-lightbox' );
 		  add_theme_support( 'wc-product-gallery-slider' );
-
+		  /* Enable breadcumb support */
+		  add_theme_support( 'yoast-seo-breadcrumbs' );
 	}
 endif; // activello_woo_setup
 add_action( 'after_setup_theme', 'activello_woo_setup' );
