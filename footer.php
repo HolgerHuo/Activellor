@@ -19,7 +19,7 @@
 					<?php if ( ! get_theme_mod( 'footer_social' ) ) { activello_social_icons();} ?>
 					<div class="copyright col-md-12">
 						<?php echo esc_html( get_theme_mod( 'activello_footer_copyright', 'Activello' ) ); ?>
-						<?php activello_footer_info(); ?>
+						Be with you for <script language="JavaScript" type="text/javascript"> var urodz=new Date("2/13/2019"); var now=new Date(); var ile=now.getTime() - urodz.getTime(); var dni=Math.floor(ile / (1000 * 60 * 60 * 24)); document.write(+dni) </script> Days | Theme Activello by Colorlib and Holger ♥
 					</div>
 				</div>
 			</div><!-- .site-info -->
